@@ -1,0 +1,126 @@
+
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+body::before{
+    display:block ;
+    content: '';
+    height: 60px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.nav-item a:hover{
+    border-bottom: 1px solid #000;
+}
+
+
+/* Contact */
+
+.form .form-control{
+  margin: 30px 0;
+}
+.form input[type="text"],
+.form input[type='email']{
+  border: 0;
+  width: 60%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.form input:focus {
+  outline: none;
+}
+ul li p{
+    margin-left: 1rem;
+}
+
+/* footer */
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.content h3{
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.content p{
+  max-width: 400px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  list-style-type: none;
+}
+
+.social-icons li{
+  margin: 0 10px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons a i {
+  font-size: 1.3rem;
+ 
+}
+
+.bi-facebook:hover{
+    color:#3B5998;
+}
+.bi-twitter:hover{
+    color: #00acee;
+
+}
+.bi-youtube:hover{
+    color: #C4302B;
+}
+.bi-instagram:hover{
+    color: #cd486b;
+}
+span a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+span a:hover{
+    color:#3F729B;
+}
+
+/* videos  */
+
+
+
+.video{
+  position: relative;
+  width: 75%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin: 5% 10%;
+}
+.video iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+}
